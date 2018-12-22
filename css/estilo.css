@@ -121,3 +121,108 @@
 
 }
 
+
+.centrar-logo-interno{
+    display: flex;
+    justify-content: center;
+}
+
+/* redes en menu */
+
+.sociales{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.s1,.s2,.s3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.s1{
+    background-color: #3b5998;
+}
+.s2{
+    background-color: #c4302b; 
+}
+.s3{
+    background-color: #212121 ; 
+}
+
+
+
+
+/* Seccion plantillas */
+
+.plantillas{
+    height: auto;
+    width: 100%;
+
+}
+
+.contenedor-limites{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.tab a{
+    color: #9c27b0!important
+}
+.tab .active{
+    color: #4a148c!important;
+    font-weight: bold;
+}
+.tabs .indicator{
+    background-color: #4a148c!important; 
+} 
+
+.titulo-portafolio{
+    font-family: 'Staatliches', cursive;
+    color: #4a148c;
+    font-size: 40px;
+    
+}
+
+.retorno{
+    font-size: 50px!important;
+    color: black !important;
+}
+.ico-di{
+    color: red;
+}
+.circulo-ico{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Seccion servicios */
+
+.servicios{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.servicios i{
+    color: #4a148c;
+}
+
+/* Seccion equipo */
+
+.equipo{
+    height: 100vh;
+    width: 100%;
+    background-color: purple;
+}
+/* Seccion contacto */
+.contacto{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+/* Seccion footer */
+

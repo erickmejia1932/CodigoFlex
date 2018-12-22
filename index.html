@@ -5,9 +5,15 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<link href="https://fonts.googleapis.com/css?family=Courgette|Staatliches" rel="stylesheet">        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Staatliches" rel="stylesheet">        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
 
         <link rel="stylesheet" href="css/estilo.css">
+
+
+        <title>CodigoFlex | Mejorando la web</title>
+
 
 
     </head>
@@ -15,31 +21,50 @@
     <body>
         <div class="contenedor-menu">
             <img src="img/logo.webp" alt="">
-            <a href="#" data-target="slide-out" class="purple darken-3 sidenav-trigger btn-floating btn-large waves-effect waves-light red"><i class="material-icons">menu</i></a> 
+            <a  data-target="slide-out" class="pulse purple darken-3 sidenav-trigger btn-floating btn-large waves-effect waves-light red"><i class="material-icons">menu</i></a> 
 
         </div>
 
         <!-- SECCION MENU -->
-        <ul id="slide-out" class="sidenav">
-            <li><div class="user-view">
-                <div class="background">
-                    <img src="images/office.jpg">
+        <div id="menu">
+            <ul id="slide-out" class="sidenav" ><br>
+                <li>                
+                    <div class="background centrar-logo-interno">
+                        <img src="img/logo.webp">
+                    </div>
+                </li>
+                <li><div class="divider"></div></li><br>
+
+                <li><a href="#inicio"><i class="material-icons">home</i>INICIO</a></li>
+                <li><div class="divider"></div></li>
+
+                <li><a href="#plantillas"><i class="material-icons">devices</i>PLANTILLAS</a></li>
+                <li><div class="divider"></div></li>
+
+                <li><a href="#servicios"><i class="material-icons">build</i>SERVICIOS</a></li>
+                <li><div class="divider"></div></li>
+
+                <li><a href="#equipo"><i class="material-icons">people</i>PARTE DEL EQUIPO</a></li>
+                <li><div class="divider"></div></li>
+
+                <li><a href="#contacto"><i class="material-icons">contact_mail</i>CONTACTOS</a></li>
+                <li><div class="divider"></div></li>
+
+                <div class="sociales ">                
+                    <a class="waves-effect waves-light btn-floating s1" href="https://www.facebook.com/codigoflex/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="waves-effect waves-light btn-floating s2" href="https://www.youtube.com/channel/UCTBKKcHd6IKGsEIvWtSsPlg" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="waves-effect waves-light btn-floating s3" href="https://github.com/erickmejia1932/CodigoFlex" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
-                <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-                <a href="#name"><span class="white-text name">John Doe</span></a>
-                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                </div></li>
-            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-            <li><a href="#!">Second Link</a></li>
-            <li><div class="divider"></div></li>
-            <li><a class="subheader">Subheader</a></li>
-            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-        </ul>
+
+            </ul>
+            <div class="fixed-action-btn "><a class="btn-floating btn-large grey lighten-2" href="#inicio " ><i class="large material-icons retorno">arrow_drop_up</i></a></div>
+
+        </div>
 
 
 
         <!-- SECCION SLIDER -->        
-        <div class="slider">
+        <header class="slider" id="inicio">
             <ul class="slides">
                 <li class="li1">
                     <img src="img/application-3426397_1920.jpg"> <!-- random image -->
@@ -52,7 +77,7 @@
                     <img src="img/laptop-2587224_1920.jpg"> <!-- random image -->
                     <div class="caption left-align">
                         <h3>Elige la plantilla que más te guste</h3>
-                        <h5 class=" text-lighten-3">Tenemos gran variedad de diseños listos para que usarlos.</h5>
+                        <h5 class=" text-lighten-3">Tenemos gran variedad de diseños listos para usarlos.</h5>
                     </div>
                 </li>
                 <li class="li3">
@@ -70,8 +95,175 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </header>
 
+
+
+
+
+        <section class="plantillas  grey lighten-2" id="plantillas">
+            <div class="contenedor-limites">
+
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="titulo-portafolio">PORTAFOLIO</h2>
+                        <div class="card">
+                            <div class="card-tabs">
+                                <ul class="tabs tabs-fixed-width " >
+                                    <li class="tab "><a class="active" href="#test4">Landing Page</a></li>
+                                    <li class="tab"><a  href="#test5">Admin & Dashboard</a></li>
+                                    <li class="tab"><a href="#test6">One Page</a></li>
+                                    <li class="tab"><a href="#test7">Componentes</a></li>
+                                    <li class="tab"><a href="#test8">Login</a></li>                                    
+                                </ul>
+                            </div>
+                            <div class="card-content grey lighten-4">
+                                <div id="test4"> 
+                                    <div class="row"  >
+                                        <div class="col s12 m3" >
+                                            <div class="card" >
+                                                <div class="card-image">
+                                                    <img src="img/laptop-2587224_1920.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                                        I am convenient because I require little markup to use effectively.</p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>                        
+                                        </div>
+
+                                        <div class="col s12 m3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="img/laptop-2587224_1920.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                                        I am convenient because I require little markup to use effectively.</p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>                        
+                                        </div>
+
+                                        <div class="col s12 m3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="img/laptop-2587224_1920.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                                        I am convenient because I require little markup to use effectively.</p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>                        
+                                        </div>
+
+                                        <div class="col s12 m3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="img/laptop-2587224_1920.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                                        I am convenient because I require little markup to use effectively.</p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>                        
+                                        </div>
+
+                                        <div class="col s12 m3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="img/laptop-2587224_1920.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                                        I am convenient because I require little markup to use effectively.</p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>                        
+                                        </div>
+
+                                        <div class="col s12 m3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="img/laptop-2587224_1920.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                                        I am convenient because I require little markup to use effectively.</p>
+                                                </div>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>                        
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div id="test5">See? Nothing to it!</div>
+                                <div id="test6">Please hit the like button! :-)</div>
+                            </div>
+                        </div>			
+                    </div>
+                </div>
+
+            </div><br><br>            
+        </section>
+
+        <section class="servicios" id="servicios">
+            <div class="contenedor-limites">
+                <div class="row"><br>
+                    <h2 class="titulo-portafolio">SERVICIOS</h2><br>
+
+                    <div class="col s12 m4 center">
+                        <div class="circulo-ico center-block z-depth-4">
+                            <i class="fas fa-laptop-code large "></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad molestias labore illo similique sequi eligendi culpa necessitatibus dicta neque earum rem, est, id nisi, odio officiis et sunt error tempora.</p>
+                    </div>
+                    <div class="col s12 m4 center">
+                        <div class="circulo-ico center-block z-depth-4">
+
+                            <i class="fab fa-php large"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolor praesentium quam totam error soluta eum, inventore incidunt molestias aliquam asperiores dolorem tenetur, est sint. Doloribus voluptatibus nostrum harum reprehenderit?</p>
+                    </div>
+                    <div class="col s12 m4 center">
+                        <div class="circulo-ico center-block z-depth-4">
+
+                            <i class="fas fa-mobile-alt large"></i>                        
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, eos. Animi deleniti, tempore odio facilis iusto, commodi est beatae veniam architecto aspernatur, error eaque cum maxime reprehenderit, laudantium doloribus dolor?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="equipo" id="equipo">
+
+        </section>
+        <section class="contacto" id="contacto">
+
+        </section>
         <br>
         <br>
         <br>
@@ -92,6 +284,8 @@
         <!-- Compiled and minified JavaScript -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="js/mi.js"></script>
 
