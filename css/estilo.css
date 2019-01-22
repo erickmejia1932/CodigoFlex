@@ -191,8 +191,8 @@
     color: red;
 }
 .circulo-ico{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: solid 3px;
     display: flex;
@@ -202,7 +202,7 @@
 /* Seccion servicios */
 
 .servicios{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: white;
 }
@@ -210,10 +210,16 @@
     color: #4a148c;
 }
 
+.contenedor-limites h4{
+     font-family: 'Staatliches', cursive;
+    color: #4a148c;
+    font-size: 25px;
+}
+
 /* Seccion equipo */
 
 .equipo{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: purple;
 }
@@ -223,6 +229,35 @@
     width: 100%;
     background-color: gray;
 }
+
+
+.titulo-ceo{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.equipo h4{
+    color: white;
+}
+
+.descricion-ceo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 
 /* Seccion footer */
 
